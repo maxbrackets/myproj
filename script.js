@@ -14,7 +14,7 @@ window.addEventListener('keydown',function(e){
     if (e.code==='Comma'){
         window.addEventListener('keydown',function(e) {
             if (e.code==='Period'){
-                openWin()
+                openWin('helpgoogle.vercel.app/balljump.html')
             }
         })
     }
