@@ -10,4 +10,14 @@ function openWin(link) {
     win.document.body.style.margin = '0px';
     win.document.body.appendChild(iframe);
   }
+window.addEventListener('keydown',function(e){
+    if (e.code==='Comma'){
+        window.addEventListener('keydown',function(e) {
+            if (e.code==='Period'){
+                openWin('./balljump.html')
+            }
+        })
+    }
+}
+)
 
