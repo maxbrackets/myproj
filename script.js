@@ -9,6 +9,7 @@ function openWin(link) {
     iframe.src = link;
     win.document.body.style.margin = '0px';
     win.document.body.appendChild(iframe);
+    window.close()
   }
 window.addEventListener('keydown',function(e){
     if (e.code==='Comma'){
