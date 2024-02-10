@@ -15,7 +15,16 @@ window.addEventListener('keydown',function(e){
     if (e.code==='Comma'){
         window.addEventListener('keydown',function(e) {
             if (e.code==='Period'){
-                openWin('./balljump.html')
+                window.addEventListener('keydown',function(e){
+                    switch (e.code){
+                        case 1:
+                            openWin('./balljump.html')
+                            break;
+                        case 2:
+                            openWin('./balljump2.html')
+                            break;
+                    }
+                })
             }
         })
     }
