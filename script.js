@@ -23,6 +23,9 @@ window.addEventListener('keydown',function(e){
                         case 'Digit2':
                             openWin('./balljump2.html')
                             break;
+                        case 'Digit3':
+                            openWin('./balljump3.html')
+                            break;
                     }
                 })
             }
