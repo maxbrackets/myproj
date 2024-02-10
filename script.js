@@ -17,10 +17,10 @@ window.addEventListener('keydown',function(e){
             if (e.code==='Period'){
                 window.addEventListener('keydown',function(e){
                     switch (e.code){
-                        case 1:
+                        case 'Digit1':
                             openWin('./balljump.html')
                             break;
-                        case 2:
+                        case 'Digit2':
                             openWin('./balljump2.html')
                             break;
                     }
