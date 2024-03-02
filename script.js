@@ -18,7 +18,7 @@ window.addEventListener('keydown',function(e){
                 window.addEventListener('keydown',function(e){
                     switch (e.code){
                         case 'Digit1':
-                            openWin('./balljump')
+                            openWin('./balljump.html')
                             break;
                         case 'Digit2':
                             openWin('./balljump2.html')
